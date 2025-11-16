@@ -93,6 +93,12 @@ st.markdown(
         flex-wrap:wrap;
         margin: 6px 0 10px;
     }}
+    /* Tighter spacing on small screens */
+    @media (max-width: 640px) {{
+        .cta-row {{
+            gap:12px;
+        }}
+    }}
     /* Bullet list with customizable left padding via --cta-pad */
     .cta-list {{
         list-style: none;
