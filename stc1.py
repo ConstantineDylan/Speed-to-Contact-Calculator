@@ -341,7 +341,7 @@ else:
 #  RIGHT COLUMN — FUNNEL + IMPACT
 # ---------------------------
 with right_col:
-    st.markdown("## Conversion Funnel")
+    st.markdown("## Conversion Funnel (Baseline vs AI)")
 
     rows = {
         "Monthly Leads": (monthly_leads, None),
@@ -483,7 +483,7 @@ cta_html = f"""
                 <li>We show you ROI live</li>\n
                 <li>Completely Free</li>\n
             </ul>\n
-        <a class=\"cta-btn\" href=\"{form_link}\">Get My 30-Second Response Plan</a>\n        </div>\n
+        <a class=\"cta-btn\" href=\"{form_link}\" target=\"_blank\" rel=\"noopener noreferrer\">Get My 30-Second Response Plan</a>\n        </div>\n
         <div style='text-align: center; font-style:italic; font-size: 15px;padding-top: 6px;'>*Only taking 2 new accounts this month so response quality stays high.*</div>\n  
     </div>
 """
