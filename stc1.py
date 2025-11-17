@@ -163,6 +163,13 @@ st.markdown(
     .swatch-accent {{ background: {ACCENT}; }}
     .swatch-pink {{ background: {WHITE}; }}
 
+    .paragraph {{
+        # font-family: \'Times New Roman\';
+        font-size: 15px;
+        margin-bottom: 12px;
+        text-align: justify;
+    }}
+
 </style>
 """,
     unsafe_allow_html=True,
@@ -187,7 +194,22 @@ def clamp01(x):
 st.markdown("# ⚡ Speed-To-Contact Diagnostic")
 st.markdown("See how much revenue you're losing every minute your leads wait.")
 
+
 st.markdown("---")
+
+
+# Lead decay paragraph above the 3 quote cards
+st.markdown("#### Lead Decay")
+
+st.markdown("""
+    <p class="paragraph">
+        The biggest profit leak in your business, and most people don’t even know it’s happening. After five minutes, your chance of contacting a lead tanks, and by fifteen minutes, more than 80% of the money you could have made is already gone. You didn’t lose them because your offer sucks—you lost them because you were slow.\n
+    </p>""", unsafe_allow_html=True)
+
+st.markdown("""
+    <p class="paragraph">
+        Leads don’t “think about it”; they forget you exist while your team is still warming up the dialer. It doesn’t matter how good your ads, funnel, or closers are if your response speed is garbage. If you’re not responding instantly, you’re basically paying competitors to take your deals from you.
+    </p>""", unsafe_allow_html=True)
 
 # Resolve local Assets images to data URIs so HTML can render them
 assets_dir = os.path.join(os.path.dirname(__file__), "Assets")
@@ -245,8 +267,8 @@ except Exception:
     st.markdown(quotes_html, unsafe_allow_html=True)
 
 st.markdown("""
-    <h3 class='center-colored-subheader'style='text-align: center;'>
-    \"The more you wait, the more $$$ you'll lose.\"
+    <h3 class='center-colored-subheader' style='text-align:center; margin:6px 0; padding:0;'>
+    \"The More You Wait, The More $$$ You'll Lose.\"
     </h3>
     """, unsafe_allow_html=True)
 
