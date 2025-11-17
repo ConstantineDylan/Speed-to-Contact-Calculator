@@ -9,7 +9,7 @@ import mimetypes
 # ---------------------------
 #  CONFIG
 # ---------------------------
-st.set_page_config(page_title="Speed-To-Lead (Bottom-Up)", layout="wide", page_icon="⚡")
+st.set_page_config(page_title="Lead Decay Calculator", layout="wide", page_icon="⚡")
 
 # Decay constant
 DECAY_CONSTANT = 0.045
@@ -23,6 +23,9 @@ ACCENT = "#2EE6A6"
 RED = "#B01212"
 # RED = "#FF4B4B"
 WHITE = "#F0F0F0"
+
+# CTAs
+form_link = "https://ldssxyfkwd9.typeform.com/to/x1P4Bgls"
 
 # ---------------------------
 #  STYLE
@@ -191,7 +194,7 @@ def clamp01(x):
 # ---------------------------
 #  HEADER
 # ---------------------------
-st.markdown("# ⚡ Speed-To-Contact Diagnostic")
+st.markdown("# ⚡ Lead Decay Calculator")
 st.markdown("See how much revenue you're losing every minute your leads wait.")
 
 
@@ -472,15 +475,15 @@ st.markdown(
 cta_html = """
     <div class=\"card cta-card\">\n  
         <div class=\"cta-title\">Ready to Capture ALL of Your Leads?</div>\n  
-        <div class=\"cta-sub\">Stop losing money to slow response times. Get AI-powered instant callbacks and start converting more leads today.</div>\n  
+        <div class=\"cta-sub\">If you're a Consulting / Coaching Business that is making between 100k-1M/month, get your schedule for our Free 30-Second Response Plan!</div>\n  
         <div class=\"cta-row\">\n
             <ul class=\"cta-list\" style=\"--cta-pad: 10px;\">\n
                 <li>No obligation</li>\n
                 <li>We plug your numbers in</li>\n
                 <li>We show you ROI live</li>\n
-                <li>Completely free</li>\n
+                <li>Completely Free</li>\n
             </ul>\n
-        <a class=\"cta-btn\" href=\"https://youtube.com\">Get My 30-Second Response Plan</a>\n        </div>\n
+        <a class=\"cta-btn\" href=\"{form_link}\">Get My 30-Second Response Plan</a>\n        </div>\n
         <div style='text-align: center; font-style:italic; font-size: 15px;padding-top: 6px;'>*Only taking 2 new accounts this month so response quality stays high.*</div>\n  
     </div>
 """
@@ -500,4 +503,4 @@ st.markdown(
 
 st.markdown("---")
 
-st.markdown("Built by VelocityAI")
+st.markdown("Built by SonicCRO")
