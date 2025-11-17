@@ -472,7 +472,7 @@ st.markdown(
 # st.markdown(f"<div class='muted'>AI System ({AI_RESPONSE_TIME_MIN}m): {ai_eff_set*100:.2f}% effective set</div>", unsafe_allow_html=True)
 
 # Bottom Call-To-Action card
-cta_html = """
+cta_html = f"""
     <div class=\"card cta-card\">\n  
         <div class=\"cta-title\">Ready to Capture ALL of Your Leads?</div>\n  
         <div class=\"cta-sub\">If you're a Consulting / Coaching Business that is making between 100k-1M/month, get your schedule for our Free 30-Second Response Plan!</div>\n  
