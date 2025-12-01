@@ -25,7 +25,7 @@ RED = "#B01212"
 WHITE = "#F0F0F0"
 
 # CTAs
-form_link = "https://ldssxyfkwd9.typeform.com/to/x1P4Bgls"
+form_link = "https://forms.fillout.com/t/qbuQ9KcthXus"
 
 # ---------------------------
 #  STYLE
